@@ -135,11 +135,27 @@ main {
 footer {
     grid-column-start: span 3;
     width: 100%;
-    display: flex;
+    display: block;
+    font-size: 12px;
     align-items: center;
     justify-content: center;
     background-color: #232e46;
     color: white;
+}
+
+.footer-inner {
+    max-width: 600px;
+    margin: 10px auto 35px;
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerLinks {
+    display: inline-block;
+    list-style-image: none;
+    margin: 0;
+    line-height: 2rem;
 }
 
 /* media  */
@@ -157,7 +173,6 @@ footer {
         grid-column-start: span 1;
     }
 }
-
 
 /* login form style */
 * {
