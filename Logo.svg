@@ -1,10 +1,14 @@
 <svg viewBox="0 0 300 200">
-    <path id="curve" d="m 60, 100 c-25, 0 -46, -20-46, -46 c0, -25 20,-46 46, -46 c25, 0 46, 20 46, 46 c0, 25 -20, 46 -46, 46 z" fill="none"/>
+    <path id="curve"
+        d="m 60, 100 c-25, 0 -46, -20-46, -46 c0, -25 20,-46 46, -46 c25, 0 46, 20 46, 46 c0, 25 -20, 46 -46, 46 z"
+        fill="none" />
     <text font-size="8 ">
         <textPath xlink:href="#curve" startOffset="20%">
             YOUR COMPUS RESOURCE SOLUTION!
         </textPath>
     </text>
-    <text x="40" y="80" font-size="70" >GSU</text>
-    <text x="41" y="132" font-size="70" color="blue">Share</text>
+    <text x="37" y="87" font-size="70" font-family="Sans-Serif" stroke="#0039A6" fill="#0039A6"
+        stroke-width="4">GSU</text>
+    <text x="40" y="145" font-size="70" font-family="Sans-Serif" stroke="#0039A6" fill="#0039A6"
+        stroke-width="4">Share</text>
 </svg>
