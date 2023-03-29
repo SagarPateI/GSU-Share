@@ -1,0 +1,10 @@
+<svg viewBox="0 0 200 200">
+    <path id="curve" d="M 10,30 A 20,20 0 0 1 40,5" fill="none"/>
+    <text font-size="6">
+        <textPath xlink:href="#curve" startOffset="0%">
+            YOUR COMPUS RESOURCE SOLUTION!
+        </textPath>
+    </text>
+    <text x="10" y="50" font-size="30">GSU</text>
+    <text x="11" y="72" font-size="30">Share</text>
+</svg>
