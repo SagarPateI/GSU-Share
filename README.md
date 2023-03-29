@@ -1,4 +1,6 @@
 # GSU-Share
+<a href="https://github.com/SagarPateI/GSU-Share/stargazers"><img src="https://img.shields.io/github/stars/SagarPateI/GSU-Share?color=yellow" alt="Stars Badge"/></a> <a href="https://github.com/SagarPateI/GSU-Share/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors-anon/SagarPateI/GSU-Share"></a> <a href="https://github.com/SagarPateI/GSU-Share/pulls"><img src="https://img.shields.io/github/issues-pr/SagarPateI/GSU-Share?color=blue" alt="Pull Requests Badge"/></a> <a href="https://github.com/SagarPateI/GSU-Share/issues"><img src="https://img.shields.io/github/issues/SagarPateI/GSU-Share?color=important" alt="Issues	 Badge"/></a> <a href="http://hits.dwyl.com/SagarPateI/GSU-Share"><img src="http://hits.dwyl.com/SagarPateI/GSU-Share.svg?style=flat" alt="Hits Badge"/></a> <a href="https://github.com/SagarPateI/GSU-Share"><img src="https://img.shields.io/github/repo-size/SagarPateI/GSU-Share?color=ff69b4" alt="Repo Size Badge"/></a> 
+
 We had the idea of creating an Atlanta-based user-submitted dynamic website with user-submitted articles sharing free learning resources on campus. Inspired by the Buzzfeed Community and forumn websites like Reddit, this website is set to release Spring 2023 
 
 This repository is directly hosted at: https://GSUShare.duckdns.org/
