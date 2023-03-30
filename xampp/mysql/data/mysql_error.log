@@ -1,0 +1,102 @@
+2023-03-30 18:30:40 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-03-30 18:30:40 0 [Note] InnoDB: Uses event mutexes
+2023-03-30 18:30:40 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-03-30 18:30:40 0 [Note] InnoDB: Number of pools: 1
+2023-03-30 18:30:40 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-03-30 18:30:40 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-03-30 18:30:40 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-03-30 18:30:40 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=300288
+2023-03-30 18:30:40 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-03-30 18:30:40 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-03-30 18:30:40 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-03-30 18:30:40 0 [Note] InnoDB: Setting file 'C:\Users\Sagar\Documents\GitHub\GSU-Share\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-03-30 18:30:40 0 [Note] InnoDB: File 'C:\Users\Sagar\Documents\GitHub\GSU-Share\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2023-03-30 18:30:40 0 [Note] InnoDB: Waiting for purge to start
+2023-03-30 18:30:40 0 [Note] InnoDB: 10.4.27 started; log sequence number 300297; transaction id 170
+2023-03-30 18:30:40 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\Sagar\Documents\GitHub\GSU-Share\xampp\mysql\data\ib_buffer_pool
+2023-03-30 18:30:40 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-03-30 18:30:40 0 [Note] Server socket created on IP: '::'.
+2023-03-30 18:30:40 0 [ERROR] Can't start server: Bind on TCP/IP port. Got error: 10048: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+
+2023-03-30 18:30:40 0 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+2023-03-30 18:30:40 0 [ERROR] Aborting
+2023-03-30 18:30:43 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-03-30 18:30:43 0 [Note] InnoDB: Uses event mutexes
+2023-03-30 18:30:43 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-03-30 18:30:43 0 [Note] InnoDB: Number of pools: 1
+2023-03-30 18:30:43 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-03-30 18:30:43 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-03-30 18:30:43 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-03-30 18:30:43 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-03-30 18:30:43 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-03-30 18:30:43 0 [Note] InnoDB: Setting file 'C:\Users\Sagar\Documents\GitHub\GSU-Share\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-03-30 18:30:43 0 [Note] InnoDB: File 'C:\Users\Sagar\Documents\GitHub\GSU-Share\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2023-03-30 18:30:43 0 [Note] InnoDB: Waiting for purge to start
+2023-03-30 18:30:43 0 [Note] InnoDB: 10.4.27 started; log sequence number 300306; transaction id 170
+2023-03-30 18:30:43 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\Sagar\Documents\GitHub\GSU-Share\xampp\mysql\data\ib_buffer_pool
+2023-03-30 18:30:43 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-03-30 18:30:43 0 [Note] Server socket created on IP: '::'.
+2023-03-30 18:30:43 0 [ERROR] Can't start server: Bind on TCP/IP port. Got error: 10048: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+
+2023-03-30 18:30:43 0 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+2023-03-30 18:30:43 0 [ERROR] Aborting
+2023-03-30 18:45:24 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-03-30 18:45:24 0 [Note] InnoDB: Uses event mutexes
+2023-03-30 18:45:24 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-03-30 18:45:24 0 [Note] InnoDB: Number of pools: 1
+2023-03-30 18:45:24 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-03-30 18:45:24 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-03-30 18:45:24 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-03-30 18:45:24 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-03-30 18:45:24 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-03-30 18:45:24 0 [Note] InnoDB: Setting file 'C:\Users\Sagar\Documents\GitHub\GSU-Share\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-03-30 18:45:24 0 [Note] InnoDB: File 'C:\Users\Sagar\Documents\GitHub\GSU-Share\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2023-03-30 18:45:24 0 [Note] InnoDB: Waiting for purge to start
+2023-03-30 18:45:24 0 [Note] InnoDB: 10.4.27 started; log sequence number 300315; transaction id 170
+2023-03-30 18:45:24 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\Sagar\Documents\GitHub\GSU-Share\xampp\mysql\data\ib_buffer_pool
+2023-03-30 18:45:24 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-03-30 18:45:24 0 [Note] Server socket created on IP: '::'.
+2023-03-30 18:45:24 0 [ERROR] Can't start server: Bind on TCP/IP port. Got error: 10048: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+
+2023-03-30 18:45:24 0 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+2023-03-30 18:45:24 0 [ERROR] Aborting
+2023-03-30 18:51:35 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-03-30 18:51:35 0 [Note] InnoDB: Uses event mutexes
+2023-03-30 18:51:35 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-03-30 18:51:35 0 [Note] InnoDB: Number of pools: 1
+2023-03-30 18:51:35 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-03-30 18:51:35 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-03-30 18:51:35 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-03-30 18:51:35 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-03-30 18:51:35 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-03-30 18:51:35 0 [Note] InnoDB: Setting file 'C:\Users\Sagar\Documents\GitHub\GSU-Share\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-03-30 18:51:35 0 [Note] InnoDB: File 'C:\Users\Sagar\Documents\GitHub\GSU-Share\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2023-03-30 18:51:35 0 [Note] InnoDB: Waiting for purge to start
+2023-03-30 18:51:35 0 [Note] InnoDB: 10.4.27 started; log sequence number 300324; transaction id 170
+2023-03-30 18:51:35 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\Sagar\Documents\GitHub\GSU-Share\xampp\mysql\data\ib_buffer_pool
+2023-03-30 18:51:35 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-03-30 18:51:35 0 [Note] Server socket created on IP: '::'.
+2023-03-30 18:51:35 0 [ERROR] Can't start server: Bind on TCP/IP port. Got error: 10048: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+
+2023-03-30 18:51:35 0 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+2023-03-30 18:51:35 0 [ERROR] Aborting
+2023-03-30 18:51:39 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-03-30 18:51:39 0 [Note] InnoDB: Uses event mutexes
+2023-03-30 18:51:39 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-03-30 18:51:39 0 [Note] InnoDB: Number of pools: 1
+2023-03-30 18:51:39 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-03-30 18:51:39 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-03-30 18:51:39 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-03-30 18:51:39 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-03-30 18:51:39 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-03-30 18:51:39 0 [Note] InnoDB: Setting file 'C:\Users\Sagar\Documents\GitHub\GSU-Share\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-03-30 18:51:39 0 [Note] InnoDB: File 'C:\Users\Sagar\Documents\GitHub\GSU-Share\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2023-03-30 18:51:39 0 [Note] InnoDB: Waiting for purge to start
+2023-03-30 18:51:39 0 [Note] InnoDB: 10.4.27 started; log sequence number 300333; transaction id 170
+2023-03-30 18:51:39 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\Sagar\Documents\GitHub\GSU-Share\xampp\mysql\data\ib_buffer_pool
+2023-03-30 18:51:39 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-03-30 18:51:39 0 [Note] Server socket created on IP: '::'.
+2023-03-30 18:51:39 0 [ERROR] Can't start server: Bind on TCP/IP port. Got error: 10048: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+
+2023-03-30 18:51:39 0 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+2023-03-30 18:51:39 0 [ERROR] Aborting
