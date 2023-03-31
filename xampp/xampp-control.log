@@ -39,3 +39,24 @@
 9:34:10 AM  [main] 	Deinitializing Modules
 9:34:10 AM  [main] 	Deinitializing Control Panel
 
+9:44:41 AM  [main] 	Initializing Control Panel
+9:44:41 AM  [main] 	Windows Version:  Enterprise  64-bit
+9:44:41 AM  [main] 	XAMPP Version: 8.2.0
+9:44:41 AM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+9:44:41 AM  [main] 	Running with Administrator rights - good!
+9:44:41 AM  [main] 	XAMPP Installation Directory: "c:\users\sagar\documents\github\gsu-share\xampp\"
+9:44:41 AM  [main] 	Checking for prerequisites
+9:44:41 AM  [main] 	All prerequisites found
+9:44:41 AM  [main] 	Initializing Modules
+9:44:41 AM  [Apache] 	XAMPP Apache is already running on port 80
+9:44:41 AM  [Apache] 	XAMPP Apache is already running on port 443
+9:44:41 AM  [mysql] 	XAMPP MySQL is already running on port 3306
+9:44:41 AM  [main] 	The FileZilla module is disabled
+9:44:41 AM  [main] 	The Mercury module is disabled
+9:44:41 AM  [main] 	The Tomcat module is disabled
+9:44:41 AM  [main] 	Starting Check-Timer
+9:44:41 AM  [main] 	Control Panel Ready
+9:44:44 AM  [main] 	Executing "services.msc"
+9:45:01 AM  [main] 	Deinitializing Modules
+9:45:01 AM  [main] 	Deinitializing Control Panel
+
