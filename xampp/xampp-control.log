@@ -1,87 +1,41 @@
-6:45:00 PM  [main] 	Initializing Control Panel
-6:45:00 PM  [main] 	Windows Version:  Enterprise  64-bit
-6:45:00 PM  [main] 	XAMPP Version: 8.2.0
-6:45:00 PM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
-6:45:00 PM  [main] 	Running with Administrator rights - good!
-6:45:00 PM  [main] 	XAMPP Installation Directory: "c:\users\sagar\documents\github\gsu-share\xampp\"
-6:45:00 PM  [main] 	Checking for prerequisites
-6:45:00 PM  [main] 	All prerequisites found
-6:45:00 PM  [main] 	Initializing Modules
-6:45:00 PM  [Apache] 	Problem detected!
-6:45:00 PM  [Apache] 	Port 443 in use by "C:\Users\Sagar\Downloads\xampp-portable-windows-x64-8.2.0-0-VS16\xampp\apache\bin\httpd.exe" with PID 1076!
-6:45:00 PM  [Apache] 	Apache WILL NOT start without the configured ports free!
-6:45:00 PM  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
-6:45:00 PM  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
-6:45:00 PM  [mysql] 	Problem detected!
-6:45:00 PM  [mysql] 	Port 3306 in use by "C:\xampp\mysql\bin\mysqld.exe"!
-6:45:00 PM  [mysql] 	MySQL WILL NOT start without the configured ports free!
-6:45:00 PM  [mysql] 	You need to uninstall/disable/reconfigure the blocking application
-6:45:00 PM  [mysql] 	or reconfigure MySQL and the Control Panel to listen on a different port
-6:45:00 PM  [main] 	The FileZilla module is disabled
-6:45:00 PM  [main] 	The Mercury module is disabled
-6:45:00 PM  [main] 	The Tomcat module is disabled
-6:45:00 PM  [main] 	Starting Check-Timer
-6:45:00 PM  [main] 	Control Panel Ready
-6:45:12 PM  [Apache] 	Problem detected!
-6:45:12 PM  [Apache] 	Port 443 in use by "C:\Users\Sagar\Downloads\xampp-portable-windows-x64-8.2.0-0-VS16\xampp\apache\bin\httpd.exe" with PID 1076!
-6:45:12 PM  [Apache] 	Apache WILL NOT start without the configured ports free!
-6:45:12 PM  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
-6:45:12 PM  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
-6:45:12 PM  [Apache] 	Attempting to start Apache app...
-6:45:12 PM  [Apache] 	Status change detected: running
-6:45:13 PM  [Apache] 	Status change detected: stopped
-6:45:13 PM  [Apache] 	Error: Apache shutdown unexpectedly.
-6:45:13 PM  [Apache] 	This may be due to a blocked port, missing dependencies, 
-6:45:13 PM  [Apache] 	improper privileges, a crash, or a shutdown by another method.
-6:45:13 PM  [Apache] 	Press the Logs button to view error logs and check
-6:45:13 PM  [Apache] 	the Windows Event Viewer for more clues
-6:45:13 PM  [Apache] 	If you need more help, copy and post this
-6:45:13 PM  [Apache] 	entire log window on the forums
-6:45:21 PM  [Apache] 	Problem detected!
-6:45:21 PM  [Apache] 	Port 443 in use by "C:\Users\Sagar\Downloads\xampp-portable-windows-x64-8.2.0-0-VS16\xampp\apache\bin\httpd.exe" with PID 1076!
-6:45:21 PM  [Apache] 	Apache WILL NOT start without the configured ports free!
-6:45:21 PM  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
-6:45:21 PM  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
-6:45:21 PM  [Apache] 	Attempting to start Apache app...
-6:45:22 PM  [Apache] 	Status change detected: running
-6:45:22 PM  [Apache] 	Status change detected: stopped
-6:45:22 PM  [Apache] 	Error: Apache shutdown unexpectedly.
-6:45:22 PM  [Apache] 	This may be due to a blocked port, missing dependencies, 
-6:45:22 PM  [Apache] 	improper privileges, a crash, or a shutdown by another method.
-6:45:22 PM  [Apache] 	Press the Logs button to view error logs and check
-6:45:22 PM  [Apache] 	the Windows Event Viewer for more clues
-6:45:22 PM  [Apache] 	If you need more help, copy and post this
-6:45:22 PM  [Apache] 	entire log window on the forums
-6:45:24 PM  [mysql] 	Problem detected!
-6:45:24 PM  [mysql] 	Port 3306 in use by "C:\xampp\mysql\bin\mysqld.exe"!
-6:45:24 PM  [mysql] 	MySQL WILL NOT start without the configured ports free!
-6:45:24 PM  [mysql] 	You need to uninstall/disable/reconfigure the blocking application
-6:45:24 PM  [mysql] 	or reconfigure MySQL and the Control Panel to listen on a different port
-6:45:24 PM  [mysql] 	Attempting to start MySQL app...
-6:45:24 PM  [mysql] 	Status change detected: running
-6:45:26 PM  [mysql] 	Status change detected: stopped
-6:45:26 PM  [mysql] 	Error: MySQL shutdown unexpectedly.
-6:45:26 PM  [mysql] 	This may be due to a blocked port, missing dependencies, 
-6:45:26 PM  [mysql] 	improper privileges, a crash, or a shutdown by another method.
-6:45:26 PM  [mysql] 	Press the Logs button to view error logs and check
-6:45:26 PM  [mysql] 	the Windows Event Viewer for more clues
-6:45:26 PM  [mysql] 	If you need more help, copy and post this
-6:45:26 PM  [mysql] 	entire log window on the forums
-6:45:26 PM  [Apache] 	Problem detected!
-6:45:26 PM  [Apache] 	Port 443 in use by "C:\Users\Sagar\Downloads\xampp-portable-windows-x64-8.2.0-0-VS16\xampp\apache\bin\httpd.exe" with PID 1076!
-6:45:26 PM  [Apache] 	Apache WILL NOT start without the configured ports free!
-6:45:26 PM  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
-6:45:26 PM  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
-6:45:26 PM  [Apache] 	Attempting to start Apache app...
-6:45:26 PM  [Apache] 	Status change detected: running
-6:45:27 PM  [Apache] 	Status change detected: stopped
-6:45:27 PM  [Apache] 	Error: Apache shutdown unexpectedly.
-6:45:27 PM  [Apache] 	This may be due to a blocked port, missing dependencies, 
-6:45:27 PM  [Apache] 	improper privileges, a crash, or a shutdown by another method.
-6:45:27 PM  [Apache] 	Press the Logs button to view error logs and check
-6:45:27 PM  [Apache] 	the Windows Event Viewer for more clues
-6:45:27 PM  [Apache] 	If you need more help, copy and post this
-6:45:27 PM  [Apache] 	entire log window on the forums
-6:49:21 PM  [main] 	Deinitializing Modules
-6:49:21 PM  [main] 	Deinitializing Control Panel
+9:31:27 AM  [main] 	Initializing Control Panel
+9:31:27 AM  [main] 	Windows Version:  Enterprise  64-bit
+9:31:27 AM  [main] 	XAMPP Version: 8.2.0
+9:31:27 AM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+9:31:27 AM  [main] 	Running with Administrator rights - good!
+9:31:27 AM  [main] 	XAMPP Installation Directory: "c:\users\sagar\documents\github\gsu-share\xampp\"
+9:31:27 AM  [main] 	Checking for prerequisites
+9:31:27 AM  [main] 	All prerequisites found
+9:31:27 AM  [main] 	Initializing Modules
+9:31:27 AM  [mysql] 	Problem detected!
+9:31:27 AM  [mysql] 	Port 3306 in use by "C:\xampp\mysql\bin\mysqld.exe"!
+9:31:27 AM  [mysql] 	MySQL WILL NOT start without the configured ports free!
+9:31:27 AM  [mysql] 	You need to uninstall/disable/reconfigure the blocking application
+9:31:27 AM  [mysql] 	or reconfigure MySQL and the Control Panel to listen on a different port
+9:31:27 AM  [main] 	The FileZilla module is disabled
+9:31:27 AM  [main] 	The Mercury module is disabled
+9:31:27 AM  [main] 	The Tomcat module is disabled
+9:31:27 AM  [main] 	Starting Check-Timer
+9:31:27 AM  [main] 	Control Panel Ready
+9:31:30 AM  [Apache] 	Attempting to start Apache app...
+9:31:31 AM  [Apache] 	Status change detected: running
+9:31:33 AM  [mysql] 	Problem detected!
+9:31:33 AM  [mysql] 	Port 3306 in use by "C:\xampp\mysql\bin\mysqld.exe"!
+9:31:33 AM  [mysql] 	MySQL WILL NOT start without the configured ports free!
+9:31:33 AM  [mysql] 	You need to uninstall/disable/reconfigure the blocking application
+9:31:33 AM  [mysql] 	or reconfigure MySQL and the Control Panel to listen on a different port
+9:31:33 AM  [mysql] 	Attempting to start MySQL app...
+9:31:33 AM  [mysql] 	Status change detected: running
+9:31:35 AM  [mysql] 	Status change detected: stopped
+9:31:35 AM  [mysql] 	Error: MySQL shutdown unexpectedly.
+9:31:35 AM  [mysql] 	This may be due to a blocked port, missing dependencies, 
+9:31:35 AM  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+9:31:35 AM  [mysql] 	Press the Logs button to view error logs and check
+9:31:35 AM  [mysql] 	the Windows Event Viewer for more clues
+9:31:35 AM  [mysql] 	If you need more help, copy and post this
+9:31:35 AM  [mysql] 	entire log window on the forums
+9:32:50 AM  [mysql] 	Attempting to start MySQL app...
+9:32:50 AM  [mysql] 	Status change detected: running
+9:34:10 AM  [main] 	Deinitializing Modules
+9:34:10 AM  [main] 	Deinitializing Control Panel
 
