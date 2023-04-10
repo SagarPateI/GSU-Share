@@ -1,7 +1,7 @@
 This snapshot was automatically generated on
-Tue, 06 Dec 2022 16:14:51 +0000
+Tue, 14 Mar 2023 23:52:03 +0000
 
-Version: 8.2.0
+Version: 8.1.17
 Branch: HEAD
 Build: D:\a\php-ftw\php-ftw\php\vs16\x64\obj\Release_TS
 
@@ -45,18 +45,18 @@ mysqli
 Dependency information:
 Module: php_curl.dll
 ===========================
-	libcrypto-3-x64.dll
-	libssl-3-x64.dll
+	libcrypto-1_1-x64.dll
+	libssl-1_1-x64.dll
 	libssh2.dll
 	nghttp2.dll
 
-Module: libssl-3-x64.dll
+Module: libssl-1_1-x64.dll
 ===========================
-	libcrypto-3-x64.dll
+	libcrypto-1_1-x64.dll
 
 Module: libssh2.dll
 ===========================
-	libcrypto-3-x64.dll
+	libcrypto-1_1-x64.dll
 
 Module: php_enchant.dll
 ===========================
@@ -73,46 +73,46 @@ Module: gmodule-2.dll
 
 Module: php_ftp.dll
 ===========================
-	libcrypto-3-x64.dll
-	libssl-3-x64.dll
+	libcrypto-1_1-x64.dll
+	libssl-1_1-x64.dll
 
 Module: php_intl.dll
 ===========================
-	icuuc71.dll
-	icuin71.dll
-	icuio71.dll
+	icuuc70.dll
+	icuin70.dll
+	icuio70.dll
 	vcruntime140_1.dll
 
-Module: icuuc71.dll
+Module: icuuc70.dll
 ===========================
-	icudt71.dll
+	icudt70.dll
 	vcruntime140_1.dll
 
-Module: icuin71.dll
+Module: icuin70.dll
 ===========================
-	icuuc71.dll
+	icuuc70.dll
 	vcruntime140_1.dll
 
-Module: icuio71.dll
+Module: icuio70.dll
 ===========================
-	icuuc71.dll
-	icuin71.dll
+	icuuc70.dll
+	icuin70.dll
 	vcruntime140_1.dll
 
 Module: php_ldap.dll
 ===========================
 	libsasl.dll
-	libcrypto-3-x64.dll
-	libssl-3-x64.dll
+	libcrypto-1_1-x64.dll
+	libssl-1_1-x64.dll
 
 Module: libsasl.dll
 ===========================
-	libcrypto-3-x64.dll
+	libcrypto-1_1-x64.dll
 
 Module: php_openssl.dll
 ===========================
-	libcrypto-3-x64.dll
-	libssl-3-x64.dll
+	libcrypto-1_1-x64.dll
+	libssl-1_1-x64.dll
 
 Module: php_pgsql.dll
 ===========================
@@ -120,12 +120,12 @@ Module: php_pgsql.dll
 
 Module: libpq.dll
 ===========================
-	libssl-3-x64.dll
-	libcrypto-3-x64.dll
+	libssl-1_1-x64.dll
+	libcrypto-1_1-x64.dll
 
 Module: php_snmp.dll
 ===========================
-	libcrypto-3-x64.dll
+	libcrypto-1_1-x64.dll
 
 Module: php_sodium.dll
 ===========================

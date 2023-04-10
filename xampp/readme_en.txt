@@ -1,4 +1,4 @@
-###### ApacheFriends XAMPP Version 8.2.0 ######
+###### ApacheFriends XAMPP Version 8.1.17 ######
  
 Note: The Portable Version does not contain the FileZilla FTP and the Mercury Mail Server. The service installations are also disabled here.
 
@@ -7,17 +7,17 @@ Important! PHP in this package needs the Microsoft Visual C++ 2019 Redistributab
 http://www.microsoft.com/en-us/download/. Please ensure that the VC++ 2019 runtime
 libraries are installed on your system.
 
-  + Apache 2.4.54
-  + MariaDB 10.4.27
-  + PHP 8.2.0 (VS16 X86 64bit thread safe) + PEAR
-  + phpMyAdmin 5.2.0
+  + Apache 2.4.56
+  + MariaDB 10.4.28
+  + PHP 8.1.17 (VS16 X86 64bit thread safe) + PEAR
+  + phpMyAdmin 5.2.1
   + OpenSSL 1.1.1p
   + ADOdb 518a
   + Mercury Mail Transport System v4.63 (not included in the portable version)
   + FileZilla FTP Server 0.9.41 (not included in the portable version)
   + Webalizer 2.23-04 (not included in the portable version)
   + Strawberry Perl 5.32.1.1 Portable
-  + Tomcat 8.5.79
+  + Tomcat 8.5.87
   + XAMPP Control Panel Version 3.3.0.
   + XAMPP mailToDisk 1.0 (write emails via PHP on local disk in <xampp>\mailoutput. Activated in the php.ini as mail default.)
 
