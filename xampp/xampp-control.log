@@ -18,3 +18,29 @@
 6:26:20 PM  [main] 	Deinitializing Modules
 6:26:20 PM  [main] 	Deinitializing Control Panel
 
+2:56:28 PM  [main] 	Initializing Control Panel
+2:56:28 PM  [main] 	Windows Version:  Enterprise  64-bit
+2:56:28 PM  [main] 	XAMPP Version: 8.1.17
+2:56:28 PM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+2:56:28 PM  [main] 	Running with Administrator rights - good!
+2:56:28 PM  [main] 	XAMPP Installation Directory: "c:\users\sagar\documents\github\gsu-share\xampp\"
+2:56:28 PM  [main] 	Checking for prerequisites
+2:56:30 PM  [main] 	All prerequisites found
+2:56:30 PM  [main] 	Initializing Modules
+2:56:30 PM  [main] 	The FileZilla module is disabled
+2:56:30 PM  [main] 	The Mercury module is disabled
+2:56:30 PM  [main] 	Starting Check-Timer
+2:56:30 PM  [main] 	Control Panel Ready
+2:56:52 PM  [Apache] 	Attempting to start Apache app...
+2:56:53 PM  [Apache] 	Status change detected: running
+2:56:53 PM  [mysql] 	Attempting to start MySQL app...
+2:56:54 PM  [mysql] 	Status change detected: running
+3:14:32 PM  [main] 	Executing "c:\users\sagar\documents\github\gsu-share\xampp\"
+3:50:09 PM  [mysql] 	Attempting to stop MySQL app...
+3:50:10 PM  [mysql] 	Status change detected: stopped
+3:50:10 PM  [Apache] 	Attempting to stop Apache (PID: 12748)
+3:50:10 PM  [Apache] 	Attempting to stop Apache (PID: 3956)
+3:50:10 PM  [Apache] 	Status change detected: stopped
+3:50:11 PM  [main] 	Deinitializing Modules
+3:50:11 PM  [main] 	Deinitializing Control Panel
+
