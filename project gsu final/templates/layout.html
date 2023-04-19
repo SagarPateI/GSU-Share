@@ -20,9 +20,27 @@
     <div class="container">
         <header>
             <nav>
-                <div class="logo">
+                <!-- <div class="logo">
                     <h3> <span class="gsu">G.S.U</span> SHARE</h3>
+                </div> -->
+                <div class="logo">
+                    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+                    <svg viewBox="0 0 210 160">
+                        <path id="curve"
+                            d="m 58, 112 c-25, 0 -46, -20-46, -46 c0, -25 20,-46 46, -46 c25, 0 46, 20 46, 46 c0, 25 -20, 46 -46, 46 z"
+                            fill="none" />
+                        <text font-size="11.5" font-family="Oswald" fill="#0039A6" stroke="#0039A6" stroke-width="0.4">
+                            <textPath xlink:href="#curve" startOffset="15%">
+                                YOUR CAMPUS RESOURCE SOLUTION!
+                            </textPath>
+                        </text>
+                        <text x="42" y="101" font-size="60" font-family="Sans-Serif" fill="#0039A6" stroke="#0039A6"
+                            stroke-width="3">GSU</text>
+                        <text x="47" y="152" font-size="60" font-family="Sans-Serif" fill="#0039A6" stroke="#0039A6"
+                            stroke-width="3">Share</text>
+                    </svg>
                 </div>
+
                 <ul>
                     <li><a href="{{url_for('index')}}">Home</a></li>
                     <li><a href="{{url_for('content')}}">Resources</a></li>

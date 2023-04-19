@@ -6,19 +6,20 @@ GSU SHARE login
 
 {% block body %}
 <form_section>
-    <form action="#" method="post">
+    <form action="#" method="post" class="left_bias">
         <label for="username">
-            user name: <br>
+            Username: <br>
             <input type="text" id="username" class="input_feild" name="username" value="{{username if username}}">
         </label>
         <br>
         <label for="password">
-            password: <br>
+            Password: <br>
             <input type="password" id="password" class="input_feild" name="password" value="{{password if password}}">
         </label>
         <br>
         <input type="submit" class="input_button"></button>
-        <p> Don't have account?<a href="./{{url_for('registration')}}" style="color:#2272ff;"> Create new account </a>
+        <p> Don't have account?<a href="./{{url_for('registration')}}" style="color:#2272ff;"> Create new account
+            </a>
         </p>
     </form>
 </form_section>
