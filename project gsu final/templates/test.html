@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+{% block title %}
+GSU SHARE login
+{% endblock %}
+
+{% block head%}
+
+<script>
+$.getJSON("http://localhost:5000/contentdb", function (data) {
+                
+                var cont = "";
+                //Iterating through rows
+                $.each(data, function(key,value){
+                    cont += "<tr>";
+                    cont += "<td>"+value.id+"</td>";
+                    cont += "<td>"+value.title+"</td>";
+                    cont += "<td>"+value.author+"</td>";
+                    cont += "<td>"+value.date+"</td>";
+                    cont += "<td>"+
+                            "<a href = 'edit_content.html?id="+value.id+"'>Edit</a>&nbsp;&nbsp;"+
+                            "<a href = 'http://localhost:5000/delete/"+value.id+"'>Delete</a></td>";
+                    cont += "</tr>";
+                });
+                //Inserting rows into table
+                $('#results').append(cont);
+            });
+</script>
+
+{% endblock %}
+
+{% block body %}
+    
+        <h1> List resources </h1> <br>
+        <table id = "results" class="results" >
+                <tr>
+                    <th>ID</th>
+                    <th>title</th>
+                    <th>author</th>
+                    <th>posted date</th>
+                    <th>Action</th>
+                </tr>
+            </table><br>
+           
+   
+{% endblock %}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> {% block title %} {% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/content-style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='scss/post-page.scss') }}">
+    <script src="{{ url_for('static', filename='js/jquery-3.6.4.min.js') }}"></script>
+    
+    
+
+    {% block head %} {% endblock %}
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo"><h3> <span class="gsu" >G.S.U</span> SHARE</h3></div>
+                <ul>
+                    <li><a href="{{url_for('index')}}">Home</a></li>
+                    <li><a href="{{url_for('content')}}">Resources</a></li>
+                    <li><a href="{{url_for('contact')}}">Contact</a></li>
+                    <li><a href="{{url_for('portfolio')}}">portfolio</a></li>
+                </ul>
+               
+               <div ><h4><a href="{{url_for('login')}}" class="login">Log in</a></h4></div>
+               <a href="#" class="mobile">&#9776;</a>
+            </nav>
+            <hr>
+        </header>
+        <!-- <aside>
+            {% block aside %}
+            {% endblock %}
+        </aside> -->
+        <main>
+            
+            {% block body %}
+            {% endblock %}
+        </main>
+        <footer>
+            <span>
+                <p>Team 7 &copy; 2023</p>
+            </span>
+            <span> 
+                <ul >
+                    <li><a href="{{url_for('copyright')}}">&copy; GSU Share</a></li>
+                    <li><a href="{{url_for('aboutUs')}}">About Us</a></li>
+                    <li> <a href="{{url_for('privacy')}}">Privacy Policy</a></li>
+                    <li><a href="{{url_for('terms')}}">Terms of Service</a></li>
+                </ul>
+            </span>
+        </footer>
+    </div>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
