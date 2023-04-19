@@ -85,6 +85,21 @@ nav ul li{
         display: block;
         font-size: 32px;
     }
+    .bigcard {
+        max-width: 100%;
+        margin-left: 0;
+    }
+}
+
+/* big card */
+.bigcard {
+    background-color: #fff;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: justify;
+    margin-left: 20px;
 }
 
 /* container */
