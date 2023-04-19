@@ -5,8 +5,8 @@ GSU SHARE login
 {% endblock %}
 
 {% block body %}
-            <form_section>
-        <form action="#" method="post">
+<form_section>
+    <form action="#" method="post">
         <label for="username">
             user name: <br>
             <input type="text" id="username" class="input_feild" name="username" value="{{username if username}}">
@@ -18,7 +18,8 @@ GSU SHARE login
         </label>
         <br>
         <input type="submit" class="input_button"></button>
-       <p> Don't have account?<a href="./{{url_for('registration')}}" style="color:#2272ff;"> Create new account </a></p>
-        </form>
-    </form_section>
-    {% endblock %}
+        <p> Don't have account?<a href="./{{url_for('registration')}}" style="color:#2272ff;"> Create new account </a>
+        </p>
+    </form>
+</form_section>
+{% endblock %}

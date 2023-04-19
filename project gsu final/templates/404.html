@@ -5,13 +5,13 @@ Page Not Found
 {% endblock %}
 
 {% block body %}
-        <!-- {% with messages = get_flashed_messages() %}
+<!-- {% with messages = get_flashed_messages() %}
             {% if messages %} 
                 {% for msg in messages %} 
                     <p>{{msg}}</p> 
                 {% endfor %} 
             {% endif %}
     {% endwith %} -->
-    <h1 >oops! looks like the page doesn't exist anymore</h1>
-    <p class="gsu" ><a href="{{url_for('index')}}">Click Here</a> To go Home Page</p>
+<h1>oops! looks like the page doesn't exist anymore</h1>
+<p class="gsu"><a href="{{url_for('index')}}">Click Here</a> To go Home Page</p>
 {% endblock %}
