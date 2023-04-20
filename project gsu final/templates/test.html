@@ -7,7 +7,7 @@ GSU SHARE login
 {% block head%}
 
 <script>
-    $.getJSON("http://localhost:5000/contentdb", function (data) {
+    $.getJSON("http://localhost:3036/contentdb", function (data) {
 
         var cont = "";
         //Iterating through rows
@@ -19,7 +19,7 @@ GSU SHARE login
             cont += "<td>" + value.date + "</td>";
             cont += "<td>" +
                 "<a href = 'edit_content.html?id=" + value.id + "'>Edit</a>&nbsp;&nbsp;" +
-                "<a href = 'http://localhost:5000/delete/" + value.id + "'>Delete</a></td>";
+                "<a href = 'http://localhost:3036/delete/" + value.id + "'>Delete</a></td>";
             cont += "</tr>";
         });
         //Inserting rows into table
