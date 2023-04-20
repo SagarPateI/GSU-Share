@@ -13,7 +13,7 @@ let lastLoginAttemptTime = new Date()
 
 form.addEventListener('submit', (e) => {
     let messages = []
-    const commonPasswords = ['password', '123456', 'qwerty', 'letmein', 'monkey']
+    const commonPasswords = ['password', '123456', 'qwerty', 'letmein', 'password123']
     const timeSinceLastLoginAttempt = new Date() - lastLoginAttemptTime
     if (loginAttempts >= maxLoginAttempts && timeSinceLastLoginAttempt < loginAttemptsResetTime) {
         messages.push(`Too many login attempts. Please try again in ${loginAttemptsResetTime / 1000 / 60} minutes.`)
