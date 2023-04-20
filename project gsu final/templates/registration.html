@@ -8,31 +8,32 @@ GSU SHARE
 <h3>Registration</h3>
 <hr>
 <form_section>
-    <form action="#">
+    <form action="#" method="GET">
         <label for="email">
             email: <br>
-            <input type="text" id="email" class="input_feild" name="email">
+            <input type="text" id="email" class="input_feild" name="email" required>
         </label>
         <br>
         <label for="username">
             user name: <br>
-            <input type="text" id="username" class="input_feild" name="username">
+            <input type="text" id="username" class="input_feild" name="username" required>
         </label>
         <br>
         <label for="password">
             password: <br>
-            <input type="password" id="password" class="input_feild" name="password">
+            <input type="password" id="password" class="input_feild" name="password" required>
         </label>
         <br>
         <label for="cpassword">
             confirm password: <br>
-            <input type="password" id="cpassword" class="input_feild" name="cpassword">
+            <input type="password" id="cpassword" class="input_feild" name="cpassword" required>
         </label>
         <br>
         <button type="submit" class="input_button">create your account</button>
         <p> By creating an account you agree to our Terms of Service and Privacy.</p>
     </form>
 </form_section>
+<div id="error" style="color: #b30000; font-weight: bold; text-align: center;"></div>
 <div style="padding: 20px;">
     <img src="static\images\sign_up_art.png" style="opacity: 0.6;">
 </div>
