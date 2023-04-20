@@ -196,7 +196,7 @@ def count():
         cur = conn.cursor(pymysql.cursors.DictCursor)
         
         cur.execute("SELECT COUNT(*) total FROM contnettable;")
-       
+        
         rows = cur.fetchall()
 
         resp = jsonify(rows)

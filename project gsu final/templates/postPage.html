@@ -63,7 +63,7 @@ GSU SHARE Posting Page
         $.ajax({
             type: 'GET',
             crossDomain: true,
-            url: 'http://localhost:3306/cont/' + contId,
+            url: 'http://localhost:5000/cont/' + contId,
             success: function (data) {
                 document.getElementById('pageTitle').innerHTML = "Edit content with ID: " + data[0]['id'];
                 document.getElementById('contId').value = data[0]['id'];
@@ -95,7 +95,7 @@ GSU SHARE Posting Page
             var formData = "title=" + title + "&body=" + body + "author=" + author + "&tags=" + tags;
             console.log(formData);
             $.ajax({
-                url: "http://localhost:3306/create",
+                url: "http://localhost:8080/create",
                 type: "POST",
                 data: formData,
                 success: function (data) {
