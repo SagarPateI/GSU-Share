@@ -5,29 +5,26 @@ GSU SHARE login
 {% endblock %}
 
 {% block body %}
-
 <form_section>
     <div id="error" style="color: #b30000; font-weight: bold;"></div>
-        <!-- <form id="form" action="#" method="post" onsubmit="return validateLogin()"> -->
-        <form id="form" action="#" method="GET">
-            <label for="username">
-                Username: <br>
-                <input type="text" id="username" class="input_feild" name="username" value="{{username if username}}">
-            </label>
-            <br>
-            <label for="password">
-                Password: <br>
-                <input type="password" id="password" class="input_feild" name="password"
-                    value="{{password if password}}">
-            </label>
-            <br>
-            <input type="submit" class="input_button"></button>
-            <p> Don't have account?<a href="./{{url_for('registration')}}" style="color:#2272ff;"> Create new account
-                </a>
-            </p>
-        </form>
+    <!-- <form id="form" action="#" method="post" onsubmit="return validateLogin()"> -->
+    <form id="form" action="#" method="GET">
+        <label for="username">
+            Username: <br>
+            <input type="text" id="username" class="input_feild" name="username" value="{{username if username}}"
+                required>
+        </label>
+        <br>
+        <label for="password">
+            Password: <br>
+            <input type="password" id="password" class="input_feild" name="password" value="{{password if password}}"
+                required>
+        </label>
+        <br>
+        <input type="submit" class="input_button"></button>
+        <p> Don't have account?<a href="./{{url_for('registration')}}" style="color:#2272ff;"> Create new account
+            </a>
+        </p>
+    </form>
 </form_section>
-
-<script defer src="./static/js/validation.js"> </script>
-
 {% endblock %}
