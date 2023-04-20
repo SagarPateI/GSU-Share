@@ -4,16 +4,26 @@
 GSU SHARE
 {% endblock %}
 
-<!-- {% block aside %}
-<ul>
-    <li>Stationary</li>
-    <li>cata 1</li>
-    <li>cata 2</li>
-    <li>cata 3</li>
-    <li>cata 4</li>
-    <li>cata 5</li>
-</ul>
-{% endblock %} -->
+<!-- <script>
+  $.getJSON("http://localhost:5000/contentdb", function (data) {
+                  
+                  var cont = "";
+                  //Iterating through rows
+                  $.each(data, function(key,value){
+                      cont += "<div class=\"card-cont\">";
+                      cont += "<h2 calss=\"title\">"+value.title+"</h2>";
+                      cont += "<p class=\"author\">"+value.author+"</p>";
+                      cont += "<p class=\"description\">"+value.body+"</p>";
+                      cont += "<div class=\"card-footer\"></td>";
+                      cont += "<p>"+value.tag+"</p>"
+                      cont += "</div>"
+                      cont += "</div>";
+                  });
+                  //Inserting rows into table
+                  $('#results').append(cont);
+              });
+  </script> -->
+
 {% block body %}
 
 <div class="main1">
@@ -101,11 +111,49 @@ GSU SHARE
     </ul> -->
 
 
+  <!-- <div class="card-cont">
+      <h2 class="title">title</h2>
+      <p class="author">author</p>
+      <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi atque quae autem ex dicta porro eaque magni reprehenderit officiis debitis a ut doloremque, adipisci incidunt libero molestias voluptatem. Accusamus, voluptate?</p>
+      <hr>
+      <div class="card-footer">
+       <p>sport, adventure</p> 
+      </div>
+    </div>
 
+    <div class="card-cont">
+      <h2 class="title">title</h2>
+      <p class="author">author</p>
+      <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi atque quae autem ex dicta porro eaque magni reprehenderit officiis debitis a ut doloremque, adipisci incidunt libero molestias voluptatem. Accusamus, voluptate?</p>
+      <hr>
+      <div class="card-footer">
+       <p>sport, adventure</p> 
+      </div>
+    </div> -->
+
+  <div class="results"></div>
 
 </div>
 
 
+<script>
+  $.getJSON("http://localhost:5000/contentdb", function (data) {
 
+    var cont = "";
+    //Iterating through rows
+    $.each(data, function (key, value) {
+      cont += "<div class=\"card-cont\">";
+      cont += "<h2 calss=\"title\">" + value.title + "</h2>";
+      cont += "<p class=\"author\">" + value.author + " | " + value.date + "</p>";
+      cont += "<p class=\"description\">" + value.body + "</p>";
+      cont += "<div class=\"card-footer\"></td>";
+      cont += "<p>" + value.tag + "</p>"
+      cont += "</div>"
+      cont += "</div>";
+    });
+    //Inserting rows into table
+    $('.results').append(cont);
+  });
+</script>
 
 {% endblock %}
