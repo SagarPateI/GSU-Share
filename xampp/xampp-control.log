@@ -169,3 +169,41 @@
 7:44:37 PM  [main] 	Deinitializing Modules
 7:44:37 PM  [main] 	Deinitializing Control Panel
 
+11:31:30 PM  [main] 	Initializing Control Panel
+11:31:30 PM  [main] 	Windows Version:  Enterprise  64-bit
+11:31:30 PM  [main] 	XAMPP Version: 8.1.17
+11:31:30 PM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+11:31:30 PM  [main] 	Running with Administrator rights - good!
+11:31:30 PM  [main] 	XAMPP Installation Directory: "c:\users\sagar\documents\github\gsu-share\xampp\"
+11:31:30 PM  [main] 	Checking for prerequisites
+11:31:31 PM  [main] 	All prerequisites found
+11:31:31 PM  [main] 	Initializing Modules
+11:31:31 PM  [main] 	The FileZilla module is disabled
+11:31:31 PM  [main] 	The Mercury module is disabled
+11:31:31 PM  [Tomcat] 	Problem detected!
+11:31:31 PM  [Tomcat] 	Port 8080 in use by "C:\Program Files\Python311\python.exe"!
+11:31:31 PM  [Tomcat] 	Tomcat WILL NOT start without the configured ports free!
+11:31:31 PM  [Tomcat] 	You need to uninstall/disable/reconfigure the blocking application
+11:31:31 PM  [Tomcat] 	or reconfigure Tomcat and the Control Panel to listen on a different port
+11:31:31 PM  [main] 	Starting Check-Timer
+11:31:31 PM  [main] 	Control Panel Ready
+11:31:34 PM  [Apache] 	Attempting to start Apache app...
+11:31:34 PM  [Apache] 	Status change detected: running
+11:31:35 PM  [mysql] 	Attempting to start MySQL app...
+11:31:36 PM  [mysql] 	Status change detected: running
+11:55:59 AM  [mysql] 	Attempting to stop MySQL app...
+11:55:59 AM  [mysql] 	Status change detected: stopped
+11:56:00 AM  [Apache] 	Attempting to stop Apache (PID: 17180)
+11:56:00 AM  [Apache] 	Attempting to stop Apache (PID: 25928)
+11:56:00 AM  [Apache] 	Status change detected: stopped
+11:56:00 AM  [Apache] 	Attempting to start Apache app...
+11:56:01 AM  [Apache] 	Status change detected: running
+11:56:01 AM  [mysql] 	Attempting to start MySQL app...
+11:56:01 AM  [mysql] 	Status change detected: running
+12:17:17 PM  [mysql] 	Attempting to stop MySQL app...
+12:17:17 PM  [mysql] 	Status change detected: stopped
+12:17:18 PM  [mysql] 	Attempting to start MySQL app...
+12:17:18 PM  [mysql] 	Status change detected: running
+12:17:21 PM  [main] 	Deinitializing Modules
+12:17:21 PM  [main] 	Deinitializing Control Panel
+
