@@ -14,7 +14,6 @@ $('textarea').keyup(function() {
         theCount = $('#the-count');
       
     current.text(characterCount);
-   
     
     /*This isn't entirely necessary, just playin around*/
     if (characterCount < 70) {

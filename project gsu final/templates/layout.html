@@ -66,11 +66,11 @@
         </main>
         <footer>
             <span>
-                <p>Team 7 &copy; 2023</p>
+                <p>Team 7 &copy; <span id="year">2023</span></p>
             </span>
             <span>
                 <ul>
-                    <li><a href="{{url_for('copyright')}}">&copy; GSU Share</a></li>
+                    <li><a href="{{url_for('copyright')}}">&copy; <span id="year">2023</span> GSU Share</a></li>
                     <li><a href="{{url_for('aboutUs')}}">About Us</a></li>
                     <li> <a href="{{url_for('privacy')}}">Privacy Policy</a></li>
                     <li><a href="{{url_for('terms')}}">Terms of Service</a></li>
@@ -79,6 +79,10 @@
         </footer>
     </div>
     <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+    <script>
+        // Get the current year and update the year in the copyright notice
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 </body>
 
 </html>
