@@ -1,17 +1,18 @@
+function validation(){
 const username = document.getElementById('username')
 const password = document.getElementById('password')
 const passwordConfirmation = document.getElementById('cpassword')
 const email = document.getElementById('email')
 const form = document.getElementById('form')
 const errorElement = document.getElementById('error')
-
+console.log(username)
 let loginAttempts = 0
 const maxLoginAttempts = 5
 const loginAttemptPeriodInMinutes = 10
 const loginAttemptsResetTime = loginAttemptPeriodInMinutes * 60 * 1000
 let lastLoginAttemptTime = new Date()
 
-form.addEventListener('submit', (e) => {
+
     let messages = []
     const commonPasswords = ['password', '123456', 'qwerty', 'letmein', 'password123']
     const timeSinceLastLoginAttempt = new Date() - lastLoginAttemptTime
@@ -46,4 +47,4 @@ form.addEventListener('submit', (e) => {
         }
     }
     errorElement.innerText = messages.join(', ')
-})
+}
