@@ -46,7 +46,7 @@ GSU SHARE Posting Page
         </div>
 
 
-        <input type="button" value="create_content" onclick="validateForm()" class="input_button"></button>
+        <input type="button" value="submit" onclick="validateForm()" class="input_button"></button>
     </form>
 </form_section>
 <p id="result"></p>
@@ -69,8 +69,8 @@ GSU SHARE Posting Page
                 document.getElementById('contId').value = data[0]['id'];
                 document.getElementById('title').value = data[0]['title'];
                 document.getElementById('author').value = data[0]['author'];
-                document.getElementById('tags').value = data[0]['tags'];
-                document.getElementById('body').value = data[0]['body'];
+                document.getElementById('tags').value = data[0]['tag'];
+                document.getElementById('the-textarea').value = data[0]['body'];
             }
         });
 
@@ -95,7 +95,7 @@ GSU SHARE Posting Page
             var formData = "title=" + title + "&body=" + body + "author=" + author + "&tags=" + tags;
             console.log(formData);
             $.ajax({
-                url: "http://localhost:8080/create",
+                url: "http://localhost:5000/create",
                 type: "POST",
                 data: formData,
                 success: function (data) {

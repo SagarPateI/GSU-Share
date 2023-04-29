@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 20, 2023 at 09:26 PM
+-- Generation Time: Apr 29, 2023 at 05:27 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -33,16 +33,15 @@ CREATE TABLE `contenttable` (
   `author` varchar(20) NOT NULL,
   `body` varchar(100) NOT NULL,
   `date` date NOT NULL,
-  `tag` varchar(20) NOT NULL,
+  `tag` varchar(30) NOT NULL,
   `image` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `contenttable`
---
+-- table data with id, title author, body, date, tag and image
 
 INSERT INTO `contenttable` (`id`, `title`, `author`, `body`, `date`, `tag`, `image`) VALUES
-(3, 'game', 'jack', 'game play', '2023-04-26', 'esport', 0),
 (5, 'free tutor', 'alex', 'free physics tutor', '2023-04-16', 'acadamic', 0),
 (6, 'camping', 'daniel', 'camping in the mountains', '2023-04-28', 'adventure', 0),
 (8, 'Reserve a Space: Fre', 'Carlos F. Mower\r\n', 'The Library offers a variety of spaces for Georgia State students, faculty, and staff that can be bo', '2022-12-08', 'library, productivit', 0),
@@ -63,14 +62,42 @@ INSERT INTO `contenttable` (`id`, `title`, `author`, `body`, `date`, `tag`, `ima
 
 --
 -- Table structure for table `users`
---
+-- user table with username, email, privilage and password
+-- privilage have 1 as user and 0 as admin
 
 CREATE TABLE `users` (
   `id` int(11) NOT NULL,
   `username` varchar(20) NOT NULL,
   `email` varchar(50) NOT NULL,
-  `privilage` tinyint(1) NOT NULL
+  `privilage` tinyint(1) NOT NULL,
+  `password` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `username`, `email`, `privilage`, `password`) VALUES
+(1, 'janethoward', 'jhoward53@student.gsu.edu', 1, 'Y8*f#z3q4K'),
+(2, 'sallyjones', 'sjones60@student.gsu.edu', 0, 'bG9@x2Tc6F'),
+(3, 'markdouglas', 'mdouglas44@student.gsu.edu', 0, 'D5h*E7p1zA'),
+(4, 'kevinlee', 'klee86@student.gsu.edu', 0, 'V6t*H2m7fR'),
+(5, 'lisaadams', 'ladams34@student.gsu.edu', 1, 'P1y&G5u9cX'),
+(6, 'amandasmith', 'asmith56@student.gsu.edu', 1, 'N9s#U6j3kF'),
+(7, 'davidwilson', 'dwilson@student.gsu.edu', 1, 'F2g*T4b6zE'),
+(8, 'sarahjohnson', 'sjohnson10@student.gsu.edu', 1, 'R8f#N4m5qJ'),
+(9, 'johndoe', 'jdoe@student.gsu.edu', 1, 'W6j*G4h9tM'),
+(10, 'lisawang', 'lwang22@student.gsu.edu', 1, 'Y2k*S7n6jF'),
+(11, 'charlesbrown', 'cbrown28@student.gsu.edu', 1, 'B7f#P5s8tZ'),
+(12, 'annetaylor', 'ataylor76@student.gsu.edu', 1, 'X9r*K7h2gM'),
+(13, 'mikesmith', 'msmith15@student.gsu.edu', 1, 'H6p&N8k2zL'),
+(14, 'rachelcarter', 'rcarter47@student.gsu.edu', 1, 'T7f&K2g8dE'),
+(15, 'stephenjohns', 'sjohns@student.gsu.edu', 1, 'J3h#B5n9mR'),
+(16, 'ericbaker', 'ebaker11@student.gsu.edu', 1, 'Z2s&Y4e7gF'),
+(17, 'chrisjackson', 'cjackson12@student.gsu.edu', 1, 'L9t@K3n6zG'),
+(18, 'jennythomas', 'jthomas@student.gsu.edu', 1, 'C7g*N2m4fT'),
+(19, 'kristinbrown', 'kbrown68@student.gsu.edu', 1, 'A5f*G7r9pJ'),
+(20, 'joewilliams', 'jwilliams13@student.gsu.edu', 1, 'Q2d&L5t6kR');
 
 --
 -- Indexes for dumped tables
@@ -102,7 +129,7 @@ ALTER TABLE `contenttable`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

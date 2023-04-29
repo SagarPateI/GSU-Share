@@ -13,7 +13,7 @@ GSU SHARE login
         //Iterating through rows
         $.each(data, function (key, value) {
             cont += "<tr>";
-            cont += "<td>" + value.id + "</td>";
+            // cont += "<td>" + value.id + "</td>";
             cont += "<td>" + value.title + "</td>";
             cont += "<td>" + value.author + "</td>";
             cont += "<td>" + value.date + "</td>";
@@ -35,10 +35,10 @@ GSU SHARE login
 {% block body %}
 
 <h1> List resources </h1> <br>
-<a href="{{url_for('logout')}}" class="login">Log out</a>
+<p><a href="{{url_for('postpage')}}">+Post Resources</a></p>
 <table id="results" class="results">
     <tr>
-        <th>ID</th>
+        <!-- <th>ID</th> -->
         <th>title</th>
         <th>author</th>
         <th>posted date</th>

@@ -1,3 +1,5 @@
+// the following code is used for the responsive page
+// it toggles the humburger menu
 const menu = document.querySelector('nav ul')
 const hamburger = document.querySelector('nav .mobile')
 hamburger.addEventListener('click', function(){
@@ -15,7 +17,7 @@ $('textarea').keyup(function() {
       
     current.text(characterCount);
     
-    /*This isn't entirely necessary, just playin around*/
+    /* this section sets the counting number if it's over or under the limit. */
     if (characterCount < 70) {
       current.css('color', '#666');
     }

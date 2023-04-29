@@ -340,7 +340,7 @@ input {
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
-    margin: auto;
+    margin-right: 20px;
 }
 
 .portfolio-card {
@@ -360,6 +360,13 @@ input {
 }
 
 /* content cards */
+.content-results{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
 .card-cont {
     width: 20rem;
     height: 21rem;
@@ -369,6 +376,7 @@ input {
     background-color: #ffffff;
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
+    /* margin-right: 0.1rem; */
 }
 
 .card-cont h2 {
