@@ -142,9 +142,45 @@ The primary goal of GSU Share is to provide a platform for both students and sta
   </tr>
 </table>
 
+##  Quick Start Instructions
+
+1. **Installing Flask:**
+   Execute the following command to install Flask:
+   ```bash
+   pip install Flask
+   ```
+
+2. **Installing pymysql:**
+   Use the following command to install the `pymysql` module:
+   ```bash
+   pip install pymysql
+   ```
+
+3. **Navigate to Project Directory:**
+   Open your terminal or command prompt and change the directory to the GSU-Share project folder.
+   ```bash
+   cd path/to/GSU-Share
+   ```
+
+4. **Start MySQL Server:**
+   Begin your MySQL server using XAMPP or through the command line if MySQL is installed separately.
+
+5. **Run the Application:**
+   Execute the main.py file to start the Flask application. (This will only work if your PATH is set up correctly on Windows. Otherwise try `C:/Python/python.exe main.py`)
+   ```bash
+   python main.py
+   ```
+
+6. **Access the Application:**
+   Once the server is running, access the application through your web browser or via a command line browser.
+   ```bash
+   curl http://localhost:5000
+   ```
+   
 ## Contributions
 
 - Amanuel Alemayehu: Main Designer (UX/UI), Application Layer Integration
 - Sagar Patel: UX Designer, Database Layer Management, Version Control Manager
 - Joshua Olawole: UX Designer, Content Management
 - Kaleb Befekadu: UX Designer, Project Management
+
