@@ -67,20 +67,6 @@ The primary goal of GSU Share is to provide a platform for both students and sta
 - **Profile Page for Founders/Developers:** Demonstrating transparency and founders' profiles.
 - **Contact Us Page:** Providing contact details for queries and suggestions.
 
-## Short-term and Long-term Plans
-
-### Short-term Goals:
-
-1. Collaboration with Georgia State University Administration for integration into the official university website.
-2. Expansion of features to better serve the needs of students and staff.
-3. Promotional and marketing activities to increase platform visibility.
-
-### Long-term Vision:
-
-1. Nationwide Expansion to other colleges and universities.
-2. Rebranding and customization for different institutions.
-3. Universal access to resources to empower students across the country.
-
 ## Demonstration
 
 <table>
@@ -141,6 +127,20 @@ The primary goal of GSU Share is to provide a platform for both students and sta
     <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/contact_us.png" alt="Contact Us Page" width="600"></td>
   </tr>
 </table>
+
+## Short-term and Long-term Plans
+
+### Short-term Goals:
+
+1. Collaboration with Georgia State University Administration for integration into the official university website.
+2. Expansion of features to better serve the needs of students and staff.
+3. Promotional and marketing activities to increase platform visibility.
+
+### Long-term Vision:
+
+1. Nationwide Expansion to other colleges and universities.
+2. Rebranding and customization for different institutions.
+3. Universal access to resources to empower students across the country.
 
 ## Contributions
 
