@@ -1,4 +1,4 @@
-<a href="https://github.com/SagarPateI/GSU-Share/stargazers"><img src="https://img.shields.io/github/stars/SagarPateI/GSU-Share?color=yellow" alt="Stars Badge"/></a> <a href="https://github.com/SagarPateI/GSU-Share/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors-anon/SagarPateI/GSU-Share"></a> <a href="https://github.com/SagarPateI/GSU-Share/pulls"><img src="https://img.shields.io/github/issues-pr/SagarPateI/GSU-Share?color=blue" alt="Pull Requests Badge"/></a> <a href="https://github.com/SagarPateI/GSU-Share/issues"><img src="https://img.shields.io/github/issues/SagarPateI/GSU-Share?color=important" alt="Issues	 Badge"/></a> <a href="http://hits.dwyl.com/SagarPateI/GSU-Share"><img src="http://hits.dwyl.com/SagarPateI/GSU-Share.svg?style=flat" alt="Hits Badge"/></a> <a href="https://github.com/SagarPateI/GSU-Share"><img src="https://img.shields.io/github/repo-size/SagarPateI/GSU-Share?color=ff69b4" alt="Repo Size Badge"/></a> 
+<a href="https://github.com/SagarPateI/GSU-Share/stargazers"><img src="https://img.shields.io/github/stars/SagarPateI/GSU-Share?color=yellow" alt="Stars Badge"/></a> <a href="https://github.com/SagarPateI/GSU-Share/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors-anon/SagarPateI/GSU-Share"></a> <a href="https://github.com/SagarPateI/GSU-Share/pulls"><img src="https://img.shields.io/github/issues-pr/SagarPateI/GSU-Share?color=blue" alt="Pull Requests Badge"/></a> <a href="https://github.com/SagarPateI/GSU-Share/issues"><img src="https://img.shields.io/github/issues/SagarPateI/GSU-Share?color=important" alt="Issues	 Badge"/></a> <a href="http://hits.dwyl.com/SagarPateI/GSU-Share"><img src="http://hits.dwyl.com/SagarPateI/GSU-Share.svg?style=flat" alt="Hits Badge"/></a> <a href="https://github.com/SagarPateI/GSU-Share"><img src="https://img.shields.io/github/repo-size/SagarPateI/GSU-Share?color=ff69b4" alt="Repo Size Badge"/></a>
 
 # GSU-Share
 
@@ -34,18 +34,22 @@ The primary goal of GSU Share is to provide a platform for both students and sta
 ## Technologies Used
 
 ### Front End
-- HTML 5 
+
+- HTML 5
 - CSS 3
 - JavaScript
 - Bootstrap
 
 ### Application Layer
+
 - Python Flask
 
 ### Back End
+
 - MySQL
 
 ### Other Tools
+
 - GitHub for version control
 
 ## Features
@@ -78,7 +82,45 @@ The primary goal of GSU Share is to provide a platform for both students and sta
 3. Universal access to resources to empower students across the country.
 
 ## Demonstration
-(Media will be added here soon)
+
+<table>
+   <tr>
+      <th>Description</th>
+      <th>Screenshot</th>
+   </tr>
+   <tr>
+      <td>Home Page</td>
+      <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/home.png" alt="Home Page" width="300"></td>
+   </tr>
+   <tr>
+      <td>User Login Page</td>
+      <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/user_login.png" alt="User Login Page" width="300"></td>
+   </tr>
+   <tr>
+      <td>Login Validation</td>
+      <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/login_validation.png" alt="Login Validation" width="300"></td>
+   </tr>
+   <tr>
+      <td>Admin Resource Page</td>
+      <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/admin_resource_page.png" alt="Admin Resource Page" width="300"></td>
+   </tr>
+   <tr>
+      <td>Contact Us Page</td>
+      <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/contact_us.png" alt="Contact Us Page" width="300"></td>
+   </tr>
+   <tr>
+      <td>Portfolio Page</td>
+      <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/portfolio_page.png" alt="Portfolio Page" width="300"></td>
+   </tr>
+   <tr>
+      <td>Terms of Service Page</td>
+      <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/tos.png" alt="Terms of Service Page" width="300"></td>
+   </tr>
+   <tr>
+      <td>Logo (SVG)</td>
+      <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/logo_svg.png" alt="Logo (SVG)" width="300"> <img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/logo.gif" alt="Logo (GIF)" width="200"></td>
+   </tr>
+</table>
 
 ## Contributions
 
