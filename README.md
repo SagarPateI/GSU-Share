@@ -84,62 +84,62 @@ The primary goal of GSU Share is to provide a platform for both students and sta
 ## Demonstration
 
 <table>
-   <tr>
-      <th>Description</th>
-      <th>Screenshot</th>
-   </tr>
-   <tr>
-      <td>Home Page</td>
-      <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/home.png" alt="Home Page" width="600"></td>
-   </tr>
-   <tr>
-      <td>Resources Page</td>
-      <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/resources.png" alt="Resources Page" width="600"></td>
-   </tr>
-   <tr>
-      <td>Admin Resource Page</td>
-      <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/admin_resource_page.png" alt="Admin Resource Page" width="600"></td>
-   </tr>
-   <tr>
-      <td>User Login Page</td>
-      <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/sign_in.png" alt="User Login Page" width="600"></td>
-   </tr>
-   <tr>
-      <td>Login Validation</td>
-      <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/login_validation.png" alt="Login Validation" width="600"></td>
-   </tr>
-   <tr>
-      <td>User Registration</td>
-      <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/registration.png" alt="User Registration<" width="600"></td>
-   </tr>
-   <tr>
-      <td>Portfolio Page</td>
-      <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/portfolio.png" alt="Portfolio Page" width="600"></td>
-   </tr>
-   <tr>
-      <td>Logo (SVG)</td>
-      <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/logo_svg.png" alt="Logo (SVG)" width="600"> <img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/logo.gif" alt="Logo (GIF)" width="200"></td>
-   </tr>
-   <tr>
-      <td>Privacy Policy Page</td>
-      <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/privacy_policy.png" alt="Privacy Policy Page" width="600"></td>
-   </tr>
-   <tr>
-      <td>Terms of Service Page</td>
-      <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/terms_of_service.png" alt="Terms of Service Page" width="600"></td>
-   </tr>
-   <tr>
-      <td>About Us Page</td>
-      <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/about_us.png" alt="About Us Page" width="600"></td>
-   </tr>
-   <tr>
-      <td>Copyright Page</td>
-      <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/copyright.png" alt="Copyright Page" width="600"></td>
-   </tr>
-   <tr>
-      <td>Contact Us Page</td>
-      <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/contact_us.png" alt="Contact Us Page" width="600"></td>
-   </tr>
+  <tr>
+    <th>Description</th>
+    <th>Screenshot</th>
+  </tr>
+  <tr>
+    <td>Home Page: The landing page of the website, providing access to available resources.</td>
+    <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/home.png" alt="Home Page" width="600"></td>
+  </tr>
+  <tr>
+    <td>Resources Page: A dedicated section showcasing available resources and services offered.</td>
+    <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/resources.png" alt="Resources Page" width="600"></td>
+  </tr>
+  <tr>
+    <td>Admin Resource Page: A page for administrative resource management and control, only available from an authorized admin account.</td>
+    <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/admin_resource_page.png" alt="Admin Resource Page" width="600"></td>
+  </tr>
+  <tr>
+    <td>User Login Page: Authentication page allowing users to access their accounts.</td>
+    <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/sign_in.png" alt="User Login Page" width="600"></td>
+  </tr>
+  <tr>
+    <td>Login Validation: Validation checking process for user login credentials, making sure only a valid email and password can be queried. Notifies the user if the login is incorrect.</td>
+    <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/login_validation.png" alt="Login Validation" width="600"></td>
+  </tr>
+  <tr>
+    <td>User Registration: Registration page for new users to create an account.</td>
+    <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/registration.png" alt="User Registration" width="600"></td>
+  </tr>
+  <tr>
+    <td>Portfolio Page: Showcasing portfolios of our team.</td>
+    <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/portfolio.png" alt="Portfolio Page" width="600"></td>
+  </tr>
+  <tr>
+    <td>SVG Logo: Displaying the project logo in SVG format, so it is infinitely scalable and uses rich text. This logo was created completely via code.</td>
+    <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/logo_svg.png" alt="Logo (SVG)" width="600"> <img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/logo.gif" alt="Logo (GIF)" width="200"></td>
+  </tr>
+  <tr>
+    <td>Privacy Policy Page: Page detailing the privacy policy and terms for platform users.</td>
+    <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/privacy_policy.png" alt="Privacy Policy Page" width="600"></td>
+  </tr>
+  <tr>
+    <td>Terms of Service Page: Page outlining the terms and conditions for platform usage.</td>
+    <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/terms_of_service.png" alt="Terms of Service Page" width="600"></td>
+  </tr>
+  <tr>
+    <td>About Us Page: Informational page about the platform and its creators.</td>
+    <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/about_us.png" alt="About Us Page" width="600"></td>
+  </tr>
+  <tr>
+    <td>Copyright Page: Page specifying copyright information for the platform.</td>
+    <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/copyright.png" alt="Copyright Page" width="600"></td>
+  </tr>
+  <tr>
+    <td>Contact Us Page: A short page providing contact details and support options, as it is required for web apps.</td>
+    <td><img src="https://github.com/SagarPateI/GSU-Share/blob/main/README/contact_us.png" alt="Contact Us Page" width="600"></td>
+  </tr>
 </table>
 
 ## Contributions
